@@ -1,0 +1,383 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonts */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar */
+#navbar {
+    background-color: #b2744c;
+    color: white;
+}
+
+.navbar-brand img {
+    width: 90px;
+    border-radius: 10px;
+}
+
+.navbar-toggler span {
+    color: white;
+    font-size: 23px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    background: #FEF7E5;
+    border-radius: 5px;
+    color: #E2781A;
+}
+
+.form-control,
+.btn-outline-success {
+    color: black;
+}
+
+/* Home Section */
+#home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/img/pictures/churros.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80%;
+    color: white;
+}
+
+.content {
+    padding-top: 210px;
+    margin-left: 56px;
+}
+
+.content h3 {
+    font-size: 50px;
+}
+
+.content p {
+    margin-top: 10px;
+}
+
+#btn {
+    background: #E2781A;
+    color: white;
+    border: none;
+}
+
+#btn:hover {
+    background: #b2744c;
+}
+
+/* Top Cards */
+.top-cards .heading2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #E2781A;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.top-cards .heading2 span {
+    color: #b2744c;
+}
+
+.top-cards .card {
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background: white;
+}
+
+.top-cards .card img {
+    border-radius: 10px 10px 0 0;
+}
+
+.top-cards .card h3 {
+    text-align: center;
+    color: #b2744c;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.top-cards .card:hover {
+    transform: translateY(-10px);
+}
+
+@media screen and (max-width: 991px) {
+    .top-cards .card {
+        width: calc(50% - 20px);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .top-cards .card {
+        width: calc(100% - 20px);
+    }
+}
+
+/* Product Section */
+.product .heading4 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #b2744c;
+    text-align: center;
+    padding-top: 70px;
+    border-bottom: 2px solid #b2744c;
+}
+
+.product .card {
+    border-radius: 10px;
+}
+
+.product .card img {
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.product .card h3 {
+    text-align: center;
+    color: #b2744c;
+    font-size: 25px;
+}
+
+.product .card p {
+    color: #b2744c;
+    padding-top: 10px;
+}
+
+.product .card p span {
+    float: right;
+    cursor: pointer;
+}
+
+.product .card:hover {
+    transform: translateY(-10px);
+}
+
+/* Gallary Section */
+#gallary h1 {
+    text-align: center;
+    color: #E2781A;
+    margin-top: 60px;
+    font-weight: bold;
+}
+
+#gallary h1 span {
+    color: #b2744c;
+}
+
+#gallary .card {
+    border-radius: 10px;
+}
+
+#gallary .card img {
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#gallary .card:hover {
+    transform: translateY(-10px);
+}
+
+/* Blogs Section */
+.blogs h1 {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+.blogs h1 span {
+    color: #b2744c;
+}
+
+.blogs .card {
+    border-radius: 10px;
+}
+
+.blogs .card img {
+    border-radius: 10px;
+}
+
+.blogs .card h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #b2744c;
+}
+
+.blogs .card h5 {
+    color: #b2744c;
+}
+
+.blogs .card p {
+    color: black;
+}
+
+.blogs #blogbtn {
+    background: #b2744c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+#footer {
+    background: #222;
+    color: white;
+    padding: 60px 0;
+}
+
+.footer-logo img {
+    width: 120px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.socail-links a {
+    display: inline-block;
+    margin: 0 10px;
+    color: white;
+    font-size: 24px;
+    transition: color 0.3s ease-in-out;
+}
+
+.socail-links a:hover {
+    color: #E2781A;
+}
+
+.additional-links a {
+    display: block;
+    margin-bottom: 10px;
+    color: #888;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.additional-links a:hover {
+    color: #E2781A;
+}
+
+.subscribe-form h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.subscribe-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.subscribe-form button {
+    background: #E2781A;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.subscribe-form button:hover {
+    background: #b2744c;
+}
+
+.footer-info p {
+    color: #888;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.footer-info p:last-child {
+    margin-bottom: 0;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 767px) {
+    .subscribe-form input[type="email"] {
+        max-width: 80%;
+    }
+}
+
+
+/* Back to Top Arrow */
+.arrow {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    cursor: pointer;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 991px) {
+    .content {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #home {
+        background-position: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .content {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .content h3 {
+        font-size: 36px;
+    }
+
+    .content p {
+        font-size: 16px;
+    }
+
+    .top-cards .heading2 {
+        font-size: 24px;
+    }
+
+    .top-cards .card h3 {
+        font-size: 18px;
+    }
+
+    .product .heading4 {
+        font-size: 24px;
+    }
+
+    .product .card h3 {
+        font-size: 20px;
+    }
+
+    .gallary h1 {
+        font-size: 24px;
+    }
+
+    .gallary .card h3 {
+        font-size: 18px;
+    }
+
+    .blogs h1 {
+        font-size: 24px;
+    }
+
+    .blogs .card h3 {
+        font-size: 18px;
+    }
+}
+
+
+
